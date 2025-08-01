@@ -1,1 +1,0 @@
-# Audio fingerprinting prototype using pyacoustid
