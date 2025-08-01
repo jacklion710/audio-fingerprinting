@@ -2,6 +2,8 @@
 
 A fast prototype for audio fingerprinting to test the Chromprint framework prior to implementation in Android and iOS mobile applications.
 
+NOTE: This project is a work in progress, results may vary.
+
 ## Usage
 
 Under `audio/` there exists a wave file `test_audio.wav` which is the power up sound for the Aero Pro. The current goal is to set up the fingerprinting pipeline and observe what happens when comparing the sound to a copy of itself, a completely different audio file, and a modified or similar copy of the sound as well as what happens when the subject audio file is padded with silence around the waveform, ambient sounds like room noises and reverberance and coloration due to the Aero speakers frequency profile.
